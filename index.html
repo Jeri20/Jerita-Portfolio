@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Jeri's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"> </script>
+    
+
+  </head>
+
+  
+    <body>
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">JERI</label>
+        <ul>
+          <li><a class="active" href="portfolio.html">Me</a></li>
+          <li><a href="works1.html">My Works</a></li>
+          <li><a href="certificates.html">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    </body>
+
+
+    <body>
+       
+
+    <section>
+      <div class="bg.image"></div>
+      <div class="bg.text">
+        <h1>Portfolio</h1>
+        
+      </div>
+
+    </section>
+    
+    <section >
+        <div class="container reveal">
+
+            <h2>About me</h2>
+            <div class="cards">
+
+              <div class="text-cards">
+                <h3>Jerita.D</h3>
+                <p> Digitalartist,
+                   Coder, Youtuber, and Musician.
+                </p>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    <section >
+      <div class="container reveal">
+
+          <h2></h2>
+          <div class="cards">
+
+            <div class="text-cards">
+              <h3>I finished my schooling at</h3>
+              <p>The Vikasa School, and
+                B.Tech/ AI and DS at Ramco Istitute of Technology
+              </p>
+            </div>
+
+          </div>
+
+      </div>
+  </section>
+  <section >
+    <div class="container reveal">
+      <div class="cards">
+        <div class="text-cards">
+          <h3>I am a Digital and Traditionalartist</h3>
+          <p>inpired mostly by Japanese anime and video games. I'm a beginner artist working on my character development, Environment drawing, and storyboarding skills</p>
+        </div>
+      </div> 
+   </div>
+ </section>
+ <section >
+  <div class="container reveal">
+    <div class="cards">
+      <div class="text-cards">
+        <h3>I am a Musician</h3>
+        <p>I play the Guitar, the ukulele, and the piano. I love singing, songwriting, and music producing.</p>
+      </div>
+    </div> 
+ </div>
+</section>
+
+
+ <script type="text/javascript">
+  window.addEventListener('scroll', reveal);
+
+  function reveal(){
+    
+    var reveals = document.querySelectorAll('.reveal');
+   
+    for (var i=0 ; i< reveals.length; i++)
+    {
+      
+      var windowheight = window.innerHeight;
+      var revealtop = reveals[i].getBoundingClientRect().top;
+      var revealpoint = 150;
+      
+       if(revealtop < windowheight - revealpoint)
+       {
+        reveals[i].classList.add('active');
+       }
+       else
+       {
+        reveals[i].classList.remove('active');
+       }
+
+      }
+    }
+   </script>
+
+
+
+  </body>
+
+<body style="background-color:#060613;">
+ <!--<div class="parent">
+   <div class="child"></div>
+  </div>-->
+</body>
+
+    </html>
