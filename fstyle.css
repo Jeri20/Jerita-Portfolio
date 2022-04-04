@@ -109,15 +109,8 @@ section{
     section h1{
       font-size: 60px;
     }
-    section h2{
-        font-size: 45px;
-      }
-      section h3{
-        font-size: 35px;
-      }
-      section p{
-        font-size: 20px;
-      }
+    .t-icon{font-size: 40px;
+      width: 20px !important;}
     }
 
     
