@@ -95,7 +95,7 @@ section .cards{
       }
       
    section .container{
-    margin: 200px;
+    margin: 50px;
    }
        section{
      min-height: 94vh;
