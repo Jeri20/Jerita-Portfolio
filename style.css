@@ -101,11 +101,6 @@ section .cards{
      min-height: 94vh;
      display: flex;
      }
-       section:nth-child(5){
-    color: #000000;
-    background: #164459 ;
-
-   }
     }
 
     
