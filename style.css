@@ -95,14 +95,12 @@ section .cards{
       }
       
    section .container{
-    margin: 50px;
+    margin: 100px;
    }
        section{
      min-height: 94vh;
      display: flex;
-     justify-content: left;
-     align-items: left;
-  }
+     justify-content: left; }
     }
 
     
