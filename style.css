@@ -82,16 +82,16 @@ section .cards{
 
   @media (max-width: 768px){
     section h1{
-      font-size: 62px;
+      font-size: 66px;
     }
     section h2{
-        font-size: 45px;
+        font-size: 54px;
       }
       section h3{
-        font-size: 35px;
+        font-size: 44px;
       }
       section p{
-        font-size: 20px;
+        font-size: 34px;
       }
     }
 
