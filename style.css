@@ -56,21 +56,21 @@
 
 
    section .container{
-    margin: 100px;
+    margin: 160px;
    }
    section h1{
-     font-size: 100px;
+     font-size: 98px;
      text-transform: uppercase;
    }
    section h2{
-     font-size: 40px;
+     font-size: 36px;
      text-transform: uppercase;
    }
    section h3{
-    font-size: 34px;
+    font-size: 30px;
   }
   section p{
-    font-size: 24px;
+    font-size: 20px;
   }
 
   
