@@ -104,7 +104,7 @@ section .cards{
        section:nth-child(5){
     color: #000000;
     background: #164459 ;
-    justify-content: center ;
+    margin: 80px;
        
    }
     }
