@@ -80,7 +80,7 @@ section .cards{
 
 
 
-  @media (max-width: 414px){
+  @media (max-width: 576px){
     section h1{
       font-size: 66px;
     }
@@ -168,7 +168,7 @@ section .cards{
     #check{
       display: none;
     }
-    @media (max-width: 414px){
+    @media (max-width: 4576px){
       label.logo{
         font-size: 50px;
         padding-left: 60px;
@@ -177,7 +177,7 @@ section .cards{
         font-size: 26px;
       }
     }
-    @media (max-width: 414px){
+    @media (max-width: 576px){
       .checkbtn{
         display: block;
       }
