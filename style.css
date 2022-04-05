@@ -93,6 +93,10 @@ section .cards{
       section p{
         font-size: 20px;
       }
+      
+   section .container{
+    margin: 200px;
+   }
     }
 
     
