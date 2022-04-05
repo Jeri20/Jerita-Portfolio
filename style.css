@@ -100,7 +100,7 @@ section .cards{
        section{
      min-height: 94vh;
      display: flex;
-     justify-content: left; }
+ }
     }
 
     
