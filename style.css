@@ -97,6 +97,12 @@ section .cards{
    section .container{
     margin: 200px;
    }
+       section{
+     min-height: 94vh;
+     display: flex;
+     justify-content: left;
+     align-items: left;
+  }
     }
 
     
