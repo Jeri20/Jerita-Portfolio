@@ -80,9 +80,9 @@ section .cards{
 
 
 
-  @media (max-width: 900px){
+  @media (max-width: 768px){
     section h1{
-      font-size: 60px;
+      font-size: 62px;
     }
     section h2{
         font-size: 45px;
