@@ -131,7 +131,7 @@ body{
 
  @media (max-width: 900px){
      h1{
-      font-size:14px;
+      font-size:26px;
     }
     .navigation-auto{
         position: absolute;
@@ -139,6 +139,7 @@ body{
         width: 450px;
         margin-top: -280px;
         justify-content: center;
+        align-items: center;
       }
       .slider{
         width: 400px;
@@ -209,6 +210,6 @@ body{
     
 
     @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
+      .sidenav {padding-top: 22px;}
+      .sidenav a {font-size: 26px;}
     }
