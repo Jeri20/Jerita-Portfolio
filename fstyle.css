@@ -162,9 +162,7 @@ section{
           {
     body{
 
-         background-repeat: no-repeat;
-         background-size: cover;
-         backdrop-filter: blur(4px);
+       background: #040404
 
               }
     
