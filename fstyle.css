@@ -107,6 +107,17 @@ section{
 
     
 
+@media (max-width: 900px){
+  .logo
+  {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    width: 20px !important;
+
+  }
 
 
     .sidenav {
