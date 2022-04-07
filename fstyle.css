@@ -108,6 +108,7 @@ section{
 
 
 
+
     .sidenav {
         height: 100%;
         width: 0; 
@@ -155,3 +156,17 @@ section{
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
       }
+
+
+      @media  (max-height: 900px)
+          {
+    body{
+
+         background-repeat: no-repeat;
+         background-size: cover;
+         backdrop-filter: blur(4px);
+         height: 100%;
+	     width: 100%;
+              }
+    
+     }
