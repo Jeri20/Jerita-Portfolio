@@ -151,6 +151,9 @@ section{
         padding: 20px;
       }
       
+body{height:100vh;
+box-sizing:border-box;
+overflow-y:hidden;} 
 
       @media screen and (max-height: 450px) {
         .sidenav {padding-top: 15px;}
