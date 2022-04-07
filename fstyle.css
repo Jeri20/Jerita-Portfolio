@@ -108,6 +108,7 @@ section{
     
 
 @media (max-width: 900px){
+  background-size:cover;
   .logo
   {
     display: flex;
