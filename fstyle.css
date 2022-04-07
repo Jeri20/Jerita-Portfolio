@@ -165,8 +165,7 @@ section{
          background-repeat: no-repeat;
          background-size: cover;
          backdrop-filter: blur(4px);
-         height: 100%;
-	     width: 100%;
+
               }
     
      }
