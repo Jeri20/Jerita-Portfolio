@@ -156,5 +156,9 @@ section{
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
       }
-
+@media (max-width: 768px) {
+    body {
+        height:100vh;
+    }
+}
 
